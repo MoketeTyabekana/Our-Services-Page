@@ -25,12 +25,24 @@ body{
 
 .our-services .content .services{
     width: 40%;
-    border: 1px solid darkgray;
+    border: 1px solid rgb(187, 250, 162);
     border-radius: 10px;
     margin: 10px;
     padding: 15px;
     background-color: #0e3100;
     color: #FAFBFA;
+}
+
+.our-services .content .services .icon img{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.icon{
+    text-align: center;
+    border-bottom: 3px solid #7deb00;
+    margin: 10px 0;
 }
 
 .content{
@@ -40,7 +52,9 @@ body{
 
 .content p{
     margin: 10px 0;
-    text-align: justify;
+    text-align:start;
+    text-wrap: wrap;
+    word-spacing: normal;
 }
 
 .content button{
@@ -49,4 +63,7 @@ body{
     background-color: #7deb00;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
+    color: #0e3100;
+    font-size: 14px;
 }
