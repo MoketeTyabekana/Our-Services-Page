@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #FAFBFA;
+    background-color: #e5fae5;
     height: 100vh;
 }
 
@@ -19,13 +19,19 @@ body{
 
 .our-services h1{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #180404;
+    font-weight: bolder;
+}
+
+.our-services p{
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .our-services .content .services{
     width: 40%;
-    border: 1px solid rgb(187, 250, 162);
+    
     border-radius: 10px;
     margin: 10px;
     padding: 15px;
@@ -52,14 +58,14 @@ body{
 
 .content p{
     margin: 10px 0;
-    text-align:start;
+    text-align:justify;
     text-wrap: wrap;
     word-spacing: normal;
 }
 
 .content button{
     width: 100%;
-    padding: 7px 0;
+    padding: 10px 0;
     background-color: #7deb00;
     border: none;
     border-radius: 5px;
